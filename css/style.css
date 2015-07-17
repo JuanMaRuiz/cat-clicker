@@ -1,0 +1,124 @@
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #3d415a;
+}
+
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+.cat-page {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.cat-page header {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+
+.page-title {
+	width: 50%;
+	float: left;
+}
+
+/* $LIST OF CATS
+=============================*/
+
+.list-of-cats {
+	color: #333;
+	background-color: #fff;
+	height: auto;
+	width: 400px;
+	overflow: hidden;
+	border: 1px solid rgb(144, 164, 174);
+	float: left;
+	margin-right: 40px;
+}
+
+	.list-of-cats li:not-first-child {
+		margin-top: 10px;
+		list-style: none;
+	}
+	
+	.list-of-cats li a {
+		display: inline-block;
+		text-decoration: none;
+		padding: 10px;
+		width: 100%;
+	}
+		.list-of-cats li a:hover {
+			text-decoration: none;
+			background-color: rgb(189, 206, 215);
+		}
+
+
+/* $CAT VIEW
+=============================*/
+
+.cat-view {
+	color: #333;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	width: 758px;
+	background-color: #fff;
+}
+
+	.cat-view header {
+		text-align: center;	
+	}
+
+.cat-picture {
+	width: 50%;
+	float: left;
+}
+
+	.cat-picture img {
+		max-width: 100%;
+	}
+
+
+/* $ADMIN
+=============================*/
+
+.admin {
+	width: 50%;
+	float: left;
+}
+
+.admin a {
+	display: inline-block;
+	float: right;
+}
+
+/* $CAT FORM
+=============================*/
+
+.cat-form {
+	float: left;
+	clear: both;
+	margin-top: 20px;
+	width: 400px;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}

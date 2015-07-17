@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Clicker</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+		<section class="cat-page">
+			<header>
+				<h1 class="page-title">Cat Clicker</h1>
+
+				<div class="admin" id="admin">
+					<a id="admin-btn" href="#" class="btn btn-primary">Admin</a>
+				</div>
+
+			</header>
+
+			<div class="list-of-cats">
+				<ul id="list-of-cats"></ul>
+			</div>
+
+
+			<div id="cat-view" class="cat-view">
+				<header>
+					<h2 id="cat-title"></h2>
+				</header>
+				<figure id="cat-picture" class="cat-picture">
+					
+				</figure>
+
+				<aside class="cat-info">
+					<ul id="cat-info">
+						
+					</ul>
+				</aside>
+
+			</div>
+				<form id="cat-form" class="form-horizontal well cat-form">
+				    
+				    <div class="form-group">
+				      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+				      <div class="col-lg-10">
+				        <input type="text" class="form-control" id="form-cat-name" placeholder="Cat name">
+				      </div>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputPassword" class="col-lg-2 control-label">Number of clicks</label>
+				      <div class="col-lg-10">
+				        <input type="text" class="form-control" id="form-num-of-clicks" placeholder="Number of clicks">
+				      </div>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputPassword" class="col-lg-2 control-label">Image url</label>
+				      <div class="col-lg-10">
+				        <input type="text" class="form-control" id="form-cat-url" placeholder="image url">
+				      </div>
+				    </div>
+				    <div class="form-group">
+				      <div class="col-lg-10 col-lg-offset-2">
+				        <button id="close-btn" type="reset" class="btn btn-default">Cancel</button>
+				        <button id="change-data-btn" class="btn btn-primary">Submit</button>
+				      </div>
+				    </div>
+				    <input type="hidden" id="form-cat-id" value="">
+				</form>
+		
+		</section>
+
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
